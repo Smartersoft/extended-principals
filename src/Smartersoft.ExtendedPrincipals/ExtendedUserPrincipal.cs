@@ -254,6 +254,10 @@ namespace Smartersoft.ExtendedPrincipals
         #endregion
 
         #region Calling backing object
+        /// <summary>
+        /// Get a string array value for an attribute.
+        /// </summary>
+        /// <param name="attribute">The name of the property in the backing object</param>
         public string[] GetArrayForAttribute(string attribute)
         {
             try
@@ -279,16 +283,31 @@ namespace Smartersoft.ExtendedPrincipals
             }
         }
 
+        /// <summary>
+        /// Get the string value for an attribute
+        /// </summary>
+        /// <param name="attribute">The name of the property in the backing object</param>
         public string GetStringForAttribute(string attribute)
         {
             return GetArrayForAttribute(attribute)[0];
         }
 
+        /// <summary>
+        /// Set an attribute of the backing object
+        /// </summary>
+        /// <param name="attribute">The name of the property in the backing object</param>
+        /// <param name="value">New value of the property</param>
+        /// <remarks>This is UNCHECKED so just with caution!</remarks>
         public void SetAttribute(string attribute,object value)
         {
             this.ExtensionSet(attribute, value);
         }
 
+        /// <summary>
+        /// Set an attribute with a string value
+        /// </summary>
+        /// <param name="attribute">The name of the property in the backing object</param>
+        /// <param name="value">New value of the property</param>
         public void SetAttributeWithString(string attribute,string value)
         {
             if (string.IsNullOrEmpty(value))
