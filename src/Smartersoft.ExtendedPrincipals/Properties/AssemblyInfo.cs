@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Smartersoft.ExtendedPrincipals")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This library extends System.DirectoryServices.AccountManagement with extra properties")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Smartersoft")]
 [assembly: AssemblyProduct("Smartersoft.ExtendedPrincipals")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCopyright("Copyright ©  2016 Smartersoft")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
