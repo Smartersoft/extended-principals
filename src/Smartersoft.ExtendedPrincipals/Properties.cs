@@ -8,7 +8,7 @@
         internal const string Department = "department";
         internal const string HomePhone = "homePhone";
         internal const string Initials = "initials";
-        internal const string Manager = "nanager";
+        internal const string Manager = "manager";
         internal const string MemberOf = "memberof";
         internal const string Mobile = "mobile";
         internal const string Office = "physicalDeleveryOfficeName";

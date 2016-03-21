@@ -67,7 +67,7 @@ namespace Smartersoft.ExtendedPrincipals
 
         #region Extra properties
         /// <summary>
-        /// DateTime of the last change
+        /// Last modified date
         /// </summary>
         public DateTime Changed
         {
@@ -94,7 +94,7 @@ namespace Smartersoft.ExtendedPrincipals
         }
         
         /// <summary>
-        /// Creation time
+        /// Creation date
         /// </summary>
         public DateTime Created
         {
